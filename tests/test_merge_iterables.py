@@ -1,4 +1,4 @@
-# pylint: disable=C0116,C0114
+# pylint: disable=C0116,C0114,E0401
 import pytest
 
 from modules.merge_iterables import merge_iterables
@@ -20,4 +20,3 @@ def test_merge_iterables_positive(iterables, expected: int):
                         ])
 def test_merge_different_types_of_iterables(iterables, expected: int):
     assert list(merge_iterables(*iterables)) == expected
-    

@@ -1,4 +1,4 @@
-# pylint: disable=C0116,C0114
+# pylint: disable=C0116,C0114,E0401
 import pytest
 
 from modules.reverse_number import reverse_number

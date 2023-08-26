@@ -1,4 +1,4 @@
-# pylint: disable=C0116,C0114
+# pylint: disable=C0116,C0114,E0401
 import pytest
 
 from modules.parse_time_delta import parse_time_delta
